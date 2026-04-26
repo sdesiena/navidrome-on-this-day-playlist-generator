@@ -39,7 +39,7 @@ EOF
     done
 
     echo "  ],"
-    echo '  "sort": "-originaldate,+album"'
+    echo '  "sort": "-originaldate,+album,+tracknumber"'
     echo "}"
 } > "$OUTPUT_FILE"
 
