@@ -15,6 +15,8 @@ Review the script and make any necessary changes, such as:
 
 If you want it to run automatically every morning, set up your cron with something like:
 
-```0 3 * * * ~/scripts/onthisday.sh > /dev/null 2>&1```
+```
+0 3 * * * ~/scripts/onthisday.sh > /dev/null 2>&1
+```
 
 Making sure the filepath is correct. This will run the script every morning at 3.
